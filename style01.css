@@ -1,4 +1,8 @@
 /* #0 */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 div.document {
 
 }
@@ -24,5 +28,24 @@ div#menuBar{
 }
 
 div#text{
-    
+
+}
+
+div#sidebar{
+    height: 100%;
+    width: 150px;
+    position: -webkit-sticky; /* for Safari users */
+    position: sticky;
+    top: 0px;
+    float: right;
+    margin-top: 100px;
+    padding-top: 40px;
+    background-color: lightblue;    
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+div#bottom{
+
 }
