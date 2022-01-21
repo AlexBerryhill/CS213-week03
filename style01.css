@@ -10,7 +10,7 @@ body{
     padding: 20px;
     left:10%;
     width:100%;
-    height: 110px;
+    height: auto;
     top:0%;
 }
 
@@ -18,14 +18,29 @@ h1 {
     text-align: center;
 }
 
-.bar-item{
+#menu-bar, #text{
+  border:rgb(0, 255, 0);
+  border-style: groove;
+  border-radius: 25px;
+}
+
+#menu-bar-list {
+  list-style-type: circle;
+}
+
+#menu-bar-item{
     padding:8px 16px;
     float:left;
     width:100%;
     text-align: center;
     border:black;
     display:block;
-    outline:0}
+    outline:0
+  }
+
+.menu-bar-item:hover {
+  background-color: rgb(168, 168, 168);
+}
 
 .button{
     border:none;
