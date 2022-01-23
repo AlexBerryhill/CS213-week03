@@ -1,0 +1,73 @@
+body{
+    background-color:cyan;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+
+table, th, td, li {
+    border:2px solid black;
+
+}
+
+div#title {
+    font-family: cursive;
+    background-color:darkgoldenrod;
+    border: 15px double blueviolet;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+  }
+
+
+ul#menuBarList {
+    list-style-type: upper-roman;
+    background: #ff9999;
+    list-style-position: outside;
+    font-size: large;
+    font-family: fantasy;
+    
+  }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+/* visited link */
+a:visited {
+    color: green;
+  }
+  
+ /* mouse over link */
+a:hover {
+    color: hotpink;
+  }
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkred;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkred;
+}
+
+div#sidebar{ 
+    
+    text-align: center;
+    position: absolute;
+    
+ }
