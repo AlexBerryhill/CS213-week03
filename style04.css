@@ -1,8 +1,11 @@
 /* #3 
 Author: Alex Berryhill
 */
+
 body { 
     font-size:8px;
+    background-image : url("venom.jpeg");
+    
 }
 
 div#title {
@@ -50,6 +53,9 @@ li:hover {
 }
 
 div#menuBar{
+  text-align: center;
+  size: 4vw;
+  font-weight: bold ;
   width: 40px;
   border-radius: 100%;
   background-color: rgb(205, 90, 171);
@@ -62,6 +68,7 @@ div#menuBar{
 .menuBarItem {
     width: 75%; margin-left: 0%;
     font-size: 24px;
+    font-family: cursive;
 }
 #text h1 {
     margin-left: -33%;
@@ -136,3 +143,4 @@ div#bottom{
     border-radius: 100%;
     background-color: rgb(90, 188, 205);
 }
+
